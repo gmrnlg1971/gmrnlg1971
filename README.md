@@ -244,3 +244,25 @@ graph TD
 +        raise ImportError("transformers is not installed")
      return GPT2TokenizerFast.from_pretrained("gpt2")
 ```
+
+---
+
+## 6. Autonomous Agent Swarms
+**Domain:** Multi-Agent Orchestration & Generative Workflows
+
+Architected and deployed distributed AI agent swarms capable of tackling complex, multi-step reasoning tasks. These systems leverage hierarchical agent structures where specialized "worker" agents perform scoped sub-tasks (e.g., code generation, semantic search, data processing), coordinated by a "manager" agent to ensure goal alignment and error recovery. The implementation features memory buffers for persistent context and highly customized tool registries to interact with external APIs and local filesystems seamlessly.
+
+---
+
+## 7. Intelligent PDF Parser & Information Extraction
+**Domain:** Unstructured Data Processing & OCR Pipeline
+
+Developed a high-throughput, AI-driven PDF processing pipeline. It transcends simple text extraction by incorporating structural analysis of complex documents (tables, multi-column layouts, diagrams) using vision-language models and layout parsers. The extracted structured data is embedded into high-dimensional vector spaces, powering precise Retrieval-Augmented Generation (RAG) capabilities and significantly reducing hallucinations in downstream QA tasks.
+
+---
+
+## 8. Academic Capstones & Applied Research
+**Domain:** Specialized AI Applications
+
+*   **Biofuel Plant Feasibility Intelligence:** Orchestrated multi-agent research to conduct comprehensive business and technical feasibility analyses for second-generation (2G) ethanol production. Synthesized data on feedstock, conversion technologies, and financial metrics.
+*   **Automated Monetization Strategy Discovery:** Built workflows to scrape and analyze vast amounts of YouTube content to extract actionable AI monetization strategies and compile implementation roadmaps.
